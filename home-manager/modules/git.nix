@@ -7,11 +7,6 @@
     lfs.enable = true;
     # aliases.enable = true;
 
-    signing = {
-      key = "0xC62806FDD71BC926";
-      signByDefault = true;
-    };
-
     extraConfig = { init = { defaultBranch = "main"; }; };
   };
 }
