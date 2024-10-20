@@ -1,14 +1,8 @@
-{ ... }:{
+{ ... }: {
   services.xserver = {
     enable = true;
 
-    displayManager = {
-      lightdm = {
-        greeters = {
-          pantheon.enable = true;
-        };
-      };
-    };
+    displayManager = { lightdm = { greeters = { pantheon.enable = true; }; }; };
 
     # windowManager.awesome = {
     #   enable = true;
